@@ -1,0 +1,2 @@
+# musee
+A virtual museum of arts to make a library of masterpieces available and engaging in an interactive manner, where users can appreciate the art pieces and also take part in re-inventing them. Powered by ZIM, a leading creativeJS library founded by Professor Dan Zen, the application offers a series of functionalities for users to experiment the cross-over of masterpieces of different styles, graffiti and generative arts. 
