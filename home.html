@@ -3,6 +3,16 @@
 <head>
 <meta charset="utf-8" />
 <title>Musee D'Osmanthus</title>
+<link rel="icon" type="image/x-icon" href = "favicon/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+<link rel="icon" sizes="192x192" href="favicon/android-chrome-192x192.png" /> 
+<link rel="icon" sizes="512x512" href="favicon/android-chrome-512x512.png" /> 
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
+<link rel="manifest" href="favicon/site.webmanifest" />
+<meta name="msapplication-TileColor" content="#da532c" />
+<meta name="msapplication-TileImage" content="favicon/mstile-150x150.png" />
+<meta name="theme-color" content="#ffffff" />
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
 <script src="https://zimjs.org/cdn/1.3.2/createjs.js"></script>
@@ -295,7 +305,7 @@ frame.on("ready", () => {
             stage.update();
         }, 80);}
 
-    const pLabel =new Label("Musee d'Osmanthus", 100, "CARMENCI").alp(.5);
+    const pLabel =new Label("Musee d'Osmanthus", 80, "CARMENCI").alp(.5);
     let pane;
     timeout (10, ()=>{
         pane = new Pane ({width:pLabel.width+100,
@@ -305,7 +315,7 @@ frame.on("ready", () => {
                 corner:0,
                 modal:false,  // modal - (default true) pane will close when user clicks off the pane - set to false to keep pane open
                 displayClose:true,
-                corner:10}).alp(0).show();
+                corner:10}).show();
 
           asset(norahJones[0]).play({volume:1, interrupt:"any", loop:true});
 
